@@ -68,10 +68,10 @@ public class Main {
         int part1Result = part1(times, distances);
         System.out.println("1: " + part1Result);
 
-        // PART 2
+     /*   // PART 2
         int time = Integer.parseInt(String.join("", times.stream().map(Object::toString).toArray(String[]::new)));
         int dist = Integer.parseInt(String.join("", distances.stream().map(Object::toString).toArray(String[]::new)));
         int part2Result = solve(time, dist);
-        System.out.println("2: " + part2Result);
+        System.out.println("2: " + part2Result);*/
     }
 }
